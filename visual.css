@@ -1,0 +1,70 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(190, 190, 190);
+}
+
+
+
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin: 8px;
+    width: 230px;
+    max-height: 500px;
+    border-radius: 20px;
+}
+
+
+.card_title {
+    font-size: 16px;
+    width: 150px;
+    height: 50%;
+}
+
+
+.card_category {
+ font-family: fantasy;
+ font-size: 14px;
+ color: rgb(110, 110, 110);
+ height: 5%;
+ margin-top: 10px;
+}
+
+.card_price {
+font-size: 25px;
+height: 9%;
+}
+
+.card_count {
+    font-size: 20px;
+    color: rgb(110, 110, 110);
+    height: 10%;
+}
+
+
+.card_rate {
+    font-family: Impact,'Times New Roman';
+    height: 10%;
+    color: rgb(223, 191, 9);
+    font-size: 25px;
+}
+
+
+
+
+
+#__bs_notify__ { top:95% !important; right: 10000px !important; border-radius: 15px !important; height:10px !important; }
